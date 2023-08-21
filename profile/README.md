@@ -1,11 +1,6 @@
 # ft_transcendence
 ## Hi there 👋
 
-### Project Structure
-```
-
-```
-
 ### Versions
 ```
   "dependencies": {
