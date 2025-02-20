@@ -1,5 +1,33 @@
 # ft_transcendence
-## Hi there 👋
+
+로컬 환경에서 실행하기 위해 `.env` 파일을 설정해야 합니다.
+frontend, backend를 받아 아래와 같은 구조로 두고 도커를 실행한 상태에서 ./docker에서 make 명령어를 입력합니다.
+
+### 프로젝트 구조
+```
+.
+└── docker
+    ├── Makefile
+    ├── README.md
+    └── srcs
+        ├── .env
+        ├── docker-compose.yml
+        ├── nest
+        │   ├── backend/
+        │   │   └── .env
+        │   └── Dockerfile
+        ├── next
+        │   ├── frontend/
+        │   │   └── .env
+        │   └── Dockerfile
+        └── postgresql
+            ├── Dockerfile
+            ├── config
+            │   ├── pg_hba.conf
+            │   └── postgresql.conf
+            └── tools
+                └── database.sh
+```
 
 ### Versions
 ```
